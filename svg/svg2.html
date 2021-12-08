@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!-- 
+    r = radius
+    cx = center x, cy = center y
+    fill = background, none #HEX color currentColor
+    stroke = border, stroke-width
+    circle tag
+    rect tag = rectangle
+    width, height
+    x = left,
+    y = right
+    rx = radius x
+    ry = radius y
+    line tag requires stroke
+    x1 and x2 start and end point
+    y1 and y2 start and end point
+    -->
+
+    <svg width="250" height="250">
+        <rect rx="15" ry="15" x="25" y="25" height="200" width="200" fill="steelblue" />
+        <circle r="120" cx="125" cy="125" fill="none" stroke="red" stroke-width="4"></circle>
+        <circle r="70" cx="125" cy="125" fill="none" stroke="red" stroke-width="10"></circle>
+        <line x1="10" y1="125" x2="225" y2="225" stroke="green" stroke-width="25" />
+        <polygon fill="pink" points="50,50 125,125 200,50 200,200 125,125 50,200" />
+    </svg>
+</body>
+</html>

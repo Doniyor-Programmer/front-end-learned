@@ -1,0 +1,56 @@
+nav {
+    /* static,relative,absolute,fixed*/
+    /* position: relative;*/
+    /*relativeni qo'llasa left right top bottomlarni ishlatsa bo'ladi */
+    /* left: 130px; */
+    /* right: 100px; */
+    /* top: 300px; */
+    /* bottom: 30px; */
+
+    /* position: static;*/
+    /*staticni qo'llasa left right top bottomlarni berib bo'lmaydi */
+
+    /* position: absolute;*/
+    /*absolute orqali istalgan joyga qo'ysa bo'ladi */
+    /* right: 10px; */
+    /* bottom: 150px; */
+    /* top: 150px;
+    left: 150px; */
+
+    /* position: fixed; */
+    /*fixed bu qimirlamaydigan qancha pastga tushsangiz ham birga tushadi*/
+    /* left: 1200px; */
+    /* top: 5px; */
+
+    position: inherit; 
+    /*inherit bu qayerda turishi kerak bo'lsa shu yerda turadi va positionni relative qiladi*/
+}
+
+.example {
+    position: relative;
+    /*relative bo'lmas ekan nav divni ichiga kira olmaydi*/
+    background-color: #232384;
+    height: 500px;
+}
+
+.example2 {
+    position: relative;
+}
+
+.box {
+    z-index: 10; /*z-index bu qaysi biri birinchi kelayotganini bildiradi*/
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color:lawngreen;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid black;
+}
+
+.red {
+    z-index: -1; /*position absolute bo'lgani uchun minus son berish kerak*/
+    position: absolute; /*agar position berilmasa z-index boxniki 6 .redniki 4 bo'lsa ham bo'lardi absolute har doim birinchi qilib beradi*/
+    background-color:red;
+    left: 180px;
+}

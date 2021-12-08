@@ -1,0 +1,50 @@
+h1{
+  /* color: rgb(255, 0, 0); */  /*red green blue proporsiya 256gacha hammasi 0 qora,hammasi 256 oq */
+  /* color: rgba(255, 0, 0, 0.5); */   /* bu red green blue va alfa ranglar jilosini ko'tarib tushiradi*/
+  /* color: #244556; */  /*bu degani #rrggbb degani 2ta red 2ta green 2ta blue rangni aniqlash uchun  */
+  /* font-weight: lighter; */    /*font-weightga 100-900 gacha sonlar qo'ysa bo'ladi so'zlar ham */
+  /* font-style: oblique; */     /*font-stylega italic oblique va boshqa narsalar qo'ysa bo'ladi*/
+  /* text-align: center; */      /*text-align bu teksni turadigan joyi*/
+  /* text-decoration: overline; */  /*text-decoration orqali u s del strike taglarini vazifasini bajarish mumkin*/
+  /* font-size: 50px; */ /*font-size ga ixtiyoriy son qo'yish mumkin*/
+  /* text-transform: uppercase; */  /*text-transform orqali textni faqat katta || kichik yoki birinchi harfini katta qilish mumk*/
+  color:bisque;
+}
+
+.box{
+  /* box-sizing: border-box; */ /*bu blok elementini o'lchamini width va heightni olchamiga tenglashtiradi umumiy o'lcham masalan 250x250 bo'ladi width va heightni kamaytiradi*/
+  /* display: inline; elementlar inline block inline-block bo'ladi.block elementlar qatorni to'liq egallaydi inline keragicha inline-block esa:ikkalasi ham|||block elementni inlinega o'zgartirsa kichkina bo'lib qoladi*/
+  display: inline-block;/*inline blok eng yaxshi tanlov hisoblanadi ham block ham inline hususiyati qoladi*/
+  width: 250px;
+  height: 250px;
+  background-color: green;
+  padding: 20px;
+  border:red groove 3px;
+  /* padding: 20px;*/  /*paddingga masalan 20px bersa padding{top,right,bottom,leftga 20px dan beradi}*/
+  /*padding-left: 20px;padding-right: 20px;padding-top: 20px;padding-bottom: 20px;*/  /*qilish ham mumkin*/
+  /* padding: 10px 10px 10px 10px;*/  /*bunday qilsa soat strelkasi bo'yicha top right bottom left bo'yicha beradi*/
+  /* padding: 20px 10px;*/  /*bunday qilsa vertikal va gorizontal bo'yicha beradi 20px top,bottom || 10px left,right*/
+  margin: 10px; /*margin paddingga o'xshab ishlaydi margin qayerda turishini belgilaydi padding elementni sortirovka qiladi*/
+  /*border-color: black;*/   /*standart ko'rinishi*/
+  /*border-style: solid;*/  /*standart ko'rinishi*/
+  /*border-width: 3px;*/  /*standart ko'rinishi*/
+  /* border: red solid 3px; */  /*bu oson va qisqa usuli border-radius ham esingdan chiqmasin*/
+}
+
+/* img{
+  display: block;
+  margin: 0 auto; ikkitalik bu 1-si vertikal-gorizontal 2-si chap-o'ng
+  width: 500px;
+} */
+
+a{
+  margin: 20px; /*a inline element bo'lgani uchun margin faqat o'ng va chapga ta'sir qiladi*/
+  padding: 20px;
+  width: 300px; /*inline element bo'lgani uchun width ta'sir qilmadi inline elementlar faqat o'ziga keraklicha joyni egallaydi*/
+}
+
+/* * {
+  box-sizing: border-box; bu razmerni kichraytiradi aniqrog'i razmerni width va height kattaligiga keltiradi va width va heightni avallgi o'lchamini kichiklashtirib avvalgi o'lchamini box ga beradi
+} */
+
+/* inline elementlar saytni to'ldirib turish uchun ishlatiladi img ham inline element hisoblanadi inline elementlarni block elementlarga o'zgartirish mumkin block elementlarni ham[inline-block elementlar ham bo'ladi]*/

@@ -1,0 +1,36 @@
+.up{
+  text-transform: uppercase;
+}
+
+h1{
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-weight: 400;
+  font-style: italic;
+  text-decoration: overline;
+}
+.aup{
+  text-transform: capitalize;
+}
+
+.italic{
+  font-style: italic;
+  color: rgb(0, 200, 0);
+}
+
+.em{
+  color: rgb(100, 256, 0);
+}
+
+h2{
+  font-style: oblique;
+  color: red;
+  text-align: center;
+  text-decoration: overline;
+  font-weight: 100;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}

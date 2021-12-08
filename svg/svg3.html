@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body {
+            font-family: sans-serif;
+            font-size: 10vw;
+            height: 100vh;
+            display: grid;
+            align-items: center;
+        } */
+
+        .example {
+            width: 300px;
+            height: 300px;
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>svg <code>viewBox</code></h1> -->
+<!-- viewBox birinchi 2ta parametrlar ko'rishni qaysi koordinatadan boshlashni aniqlaydi by default 0 0 -->
+<!-- oxirgi ikkita parametrlar zoom qiladi -->
+<!-- preserveAspectRatio = none bu zoom qilmaydi -->
+    <svg preserveAspectRatio="none" viewBox="-100 -100 600 600" class="example">
+        <circle r="75" cx="150" cy="150"></circle>
+    </svg>
+</body>
+</html>

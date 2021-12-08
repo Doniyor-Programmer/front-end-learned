@@ -1,0 +1,30 @@
+$text_color: purple
+$center: 0 auto
+@mixin box
+	display: block
+	width: 250px
+	height: 200px
+	background-color: rgba(0, 0, 0, 0.5)
+
+=border
+	border: 3px dotted yellow
+	border-radius: 100%
+
+h1
+	color: $text_color
+	font-size: 50px
+	@include box
+	margin: $center
+
+h2
+	color: $text_color
+.block
+	background-color: black
+	h3
+		color: $text_color
+	&_color
+		background-color: #fff
+		button
+			+border
+	.block_color
+		color: $text_color

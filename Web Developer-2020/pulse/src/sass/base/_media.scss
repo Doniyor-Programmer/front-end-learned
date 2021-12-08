@@ -1,0 +1,222 @@
+@media (max-width: 1200px) {}
+
+@media (max-width: 991px) {
+    .header {
+        justify-content: space-around;
+    }
+
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+    }
+
+    .advantages {
+        &__item {
+            max-width: 250px;
+        }
+    }
+
+    .title_left {
+        text-align: center;
+    }
+
+    .consultation {
+        &__descr {
+            text-align: center;
+        }
+
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .feed-form {
+        align-content: center;
+    }
+
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
+
+    .feed {
+        &__content {
+            padding: 0 4px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        padding: 0 0 49px 0;
+
+        .container {
+            width: 100%;
+        }
+
+        &__wrapper {
+            margin-top: 16px;
+        }
+    }
+
+    .header {
+        height: 250px;
+        flex-direction: column;
+    }
+
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__item {
+            max-width: 273px;
+        }
+    }
+
+    .carousel {
+        &__inner {
+            max-width: 100%;
+        }
+    }
+
+    .catalog {
+        &__tab {
+            width: 169px;
+            font-size: 16px;
+        }
+    }
+
+    .feed {
+        &__content {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__text {
+            margin-left: 0px;
+        }
+
+        &__name {
+            text-align: center;
+            margin-top: 9px;
+        }
+
+        &__wins {
+            text-align: center;
+        }
+
+        &__descr {
+            text-align: center;
+            font-size: 14px;
+            padding: 0 4px;
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 400px;
+            height: 250px;
+            padding: 50px 0 60px 0;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        &__header {
+            font-size: 25px;
+        }
+
+        &__subheader {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        &__icons {
+            width: 320px;
+            margin-top: 16px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &__icon {
+            width: 100px;
+            margin-top: 16px;
+        }
+    }
+
+    .button {
+        &_main {
+            width: 250px;
+            height: 49px;
+            margin-top: 32px;
+        }
+    }
+
+    .title_left {
+        font-size: 21px;
+    }
+
+    .consultation {
+        &__descr {
+            font-size: 15px;
+        }
+    }
+
+    .feed-form {
+        width: 289px;
+    }
+
+    .carousel {
+        .slick-dots {
+            li {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+        }
+
+        &__tab {
+            margin: 0 0 9px 0;
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 100%;
+        }
+
+        &__addr {
+            font-size: 18px;
+        }
+    }
+
+    .modal {
+        width: 320px;
+        &__close {
+            top: 1px;
+            right: 1px;
+        }
+        .feed-form {
+            width: 100%;
+        }
+        .button_submit {
+            font-size: 15px;
+        }
+
+        label.error {
+            display: none !important;
+        }
+    }
+}

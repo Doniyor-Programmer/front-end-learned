@@ -1,0 +1,29 @@
+.my-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* align-items: center;
+    align-self: flex-start;
+    align-content: space-between;
+    flex-flow: column-reverse wrap-reverse; */
+    height: 450px;
+}
+
+.my-flex-block {
+    width: 150px;
+    height: 150px;
+    margin: 0 50px;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+}
+
+.waiting {
+    height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
